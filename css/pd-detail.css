@@ -1,0 +1,70 @@
+#product-detail-section .price {
+    color: white;
+}
+#product-detail-section .general-price {
+    background-color: #F2BC79;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+#product-detail-section .member-price {
+    background-color: #F26938;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.product-detail {
+    text-align: right;
+}
+.product-img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.page-link-group {
+    display: flex;
+    justify-content: space-between;
+}
+.page-link-group p a {
+    color: black;
+}
+/* Rerponsive Section */
+
+/* Responsive 320px - 768px */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .product-info {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .product-description p {
+        text-align: center;
+    }
+}
+/* Responsive 769px up */
+@media only screen and (min-width: 769px) {
+    
+}
+/* Responsive 769px - 1023px */
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .product-img {
+        width: 85%;
+    }
+}
+/* Resonsive 1024px -  1215px */
+@media only screen and (min-width: 1024px) and (max-width: 1215px) {
+    .product-detail {
+        padding: 0 100px;
+    }
+    .product-description, .page-link-group {
+        padding: 0 100px;
+        margin-top: 50px;
+    }
+}
+/* Responsive 1216px up */
+@media only screen and (min-width: 1216px) {
+    .product-detail {
+        padding: 0 100px;
+    }
+    .product-description, .page-link-group {
+        padding: 0 100px;
+        margin-top: 50px;
+    }
+}

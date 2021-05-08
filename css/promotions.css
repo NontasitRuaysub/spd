@@ -1,0 +1,10 @@
+#promotion {
+    padding: 50px 0 25px 0;
+}
+#promotion h1 {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+#promotion .columns .column {
+    padding-bottom: 50px;
+}  

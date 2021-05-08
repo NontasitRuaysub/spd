@@ -1,0 +1,20 @@
+#article-detail {
+    padding: 50px 0;
+}
+#article-detail h1 {
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.content-detail img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.content-detail h2 {
+    margin: 50px 0;
+}
+.content-detail p, .content-detail ol li {
+    font-size: 25px;
+}
+.author-name {
+    text-align: right;
+}
