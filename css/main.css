@@ -9,6 +9,9 @@ body {
 }
 
 /* Class for repeat many elements */
+.FFF8EE {
+    background-color: #FFF8EE;
+}
 .F26938 {
     background-color: #F26938;
 }
@@ -45,6 +48,26 @@ span.view-all-button {
     padding: 30px;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* Navbar Section */
+#header-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#header-navbar .navbar-cs-menu > ul {
+    display: flex;
+}
+.navbar-cs-menu > ul li {
+    padding: 20px;
+}
+.navbar-cs-logo img {
+    width: 180px;
+}
+.arrow {
+    display: inline-block;
 }
 
 /* Carousel Section */
@@ -293,7 +316,6 @@ footer .copyright {
 
 /* Tablet 769px - 1023px */
 
-
 /* Desktop 1024px - 1215px */
 
 
@@ -340,5 +362,73 @@ footer .copyright {
     /* Article Section */
     #article .columns .column {
         padding: 0 50px;
+    }
+}
+
+/* Responsive for Navbar */
+
+/* Responsive for navbar below 1024 px */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+
+/* Responsive for navbar above 1024 px */
+@media only screen and (min-width: 1024px) {
+    #header-navbar .first-dropdown {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .navbar-cs-menu li {
+        margin: 0 30px;
+        position: relative;
+    }
+    .navbar-cs-menu li a {
+        font-size: 25px;
+        color: black;
+    }
+    #header-navbar .navbar-cs-menu .has-dropdown:hover .first-dropdown {
+        display: block;
+        position: absolute;
+        top: 80px;
+        z-index: 2;
+        box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.1);
+        
+    }
+    .first-dropdown ul li {
+        width: 250px;
+        padding: 20px;
+    }
+    .first-dropdown ul .product {
+        position: relative;
+    }
+    .first-dropdown ul .product:hover .second-dropdown {
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+    .second-dropdown, .third-dropdown {
+        display: none;
+        box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.1);
+    }
+    .food-product {
+        position: relative;
+    }
+    .product .second-dropdown .food-product:hover .third-dropdown {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    .has-dropdown .pd-arrow {
+        transform: rotate(90deg);
+        margin-left: 10px;
+    }
+    .first-dropdown .arrow {
+        position: absolute;
+        right: 10px;
     }
 }
