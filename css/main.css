@@ -1,0 +1,344 @@
+*, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+}
+body {
+    background-color: #FFF8EE;
+}
+
+/* Class for repeat many elements */
+.F26938 {
+    background-color: #F26938;
+}
+.F8DAB3 {
+    background-color: #F8DAB3;
+}
+.view-all-link a {
+    color: #F26938;
+    font-size: 30px;
+    font-weight: 600;
+}
+span.view-all-link {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin: 25px 0;
+}
+span.view-all-button {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.color-button {
+    background-color: #F26938;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Shop-Announcement */
+#shop-announce {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Carousel Section */
+#header-carousel {
+    position: relative;
+}
+#header-carousel .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+/* Service text group Section */
+#service-text-group {
+    padding: 50px;
+}
+#service-text-group .service-head {
+    margin-bottom: 20px;
+    color: #F26938;
+}
+#service-text-group .detail {
+    font-size: 20px;
+    color: #F26938;
+}
+.divider {
+    border-left: 5px solid #F26938;
+    display: inline-block;
+    height: 50px;
+    margin: auto 0;
+}
+
+/* Product type section */
+#product-type {
+    text-align: center;
+    padding: 0;
+    margin: 50px 0;
+}
+#product-type img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+#product-type h1 {
+    margin-bottom: 50px;
+}
+#product-type h2 {
+    color: #F26938;
+}
+
+/* Promotion Section */
+#promotion {
+    text-align: center;
+    padding: 0;
+    margin: 50px 0;
+}
+#promotion h1 {
+    margin-bottom: 50px;
+}
+
+/* Advertising Section */
+#ads {
+    padding: 0;
+    margin: 50px 0;
+}
+.advertise-group .advertise-header {
+    font-weight: 600;
+    margin-bottom: 300px;
+}
+.advertise-group {
+    padding-right: 150px;
+}
+.advertise-group .content .detail {
+    font-size: 20px;
+}
+
+/* Best Selling Products */
+#best-sell {
+    padding: 0;
+    margin: 50px 0;
+}
+#best-sell h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+#best-sell .columns {
+    margin: 0;
+}
+#best-sell img {
+    margin-bottom: 25px;
+}
+#best-sell p {
+    font-size: 25px;
+}
+#best-sell .bs-button {
+    margin-bottom: 25px;
+    width: 100%
+
+}
+
+/* Line Contact Section */
+#line-contact {
+    padding: 50px 0;
+    margin: 50px 0;
+    background-color: #F8DAB3;
+}
+#line-contact .header, #line-contact-second .header {
+    color: #F26938;
+}
+
+/* Advertising second Section */
+#ads-second {
+    padding: 0;
+    margin: 50px 0;
+}
+#ads-second .detail {
+    margin: 32px 0;
+    font-size: 20px;
+}
+#ads-second .ads-detail {
+    padding: 0 20px;
+}
+
+/* Grooming Section */
+#grooming {
+    background-image: url("../imgs/grooming-imgs/groom.jpg");
+    background-color: #666666;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    opacity: 0.8;
+    margin: 50px 0;
+}
+.grooming-gradient {
+    position: absolute;
+    width: 100%;
+}
+#grooming h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: black;
+
+}
+#grooming p {
+    font-size: 40px;
+}
+
+/* Key word Products */
+#keyword-pd {
+    padding: 0;
+    margin: 50px 0;
+}
+#keyword-pd h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#keyword-pd p {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+
+/* Article Section */
+#article {
+    padding: 0;
+    margin: 50px 0;
+}
+#article h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#article p {
+    font-size: 25px;
+}
+#article .article-button {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Review Section */
+#review {
+    padding: 0;
+    margin: 50px 0;
+}
+#review h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#review .item {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+#review .item blockquote  {
+    margin: 50px;
+}
+
+#line-contact-second {
+    padding: 50px 0;
+    margin-top: 50px;
+    background-color: #F8DAB3;
+}
+
+/* Footer */
+footer {
+    padding-top: 40px;
+    background-color: #F26938;
+    font-size: 20px;
+    color: #fff;
+}
+footer #footer-nav {
+    display: flex;
+    flex-direction: column;
+} 
+footer #footer-nav a {
+    color: #fff;
+}
+footer .social {
+    display: flex;
+    margin: 20px 0;
+}
+footer .social img {
+    width: 50px;
+    margin-right: 20px;
+}
+.fa-phone-alt {
+    margin-right: 10px;
+}
+footer hr {
+    opacity: .3;
+}
+footer .copyright {
+    text-align: right;
+    padding: 40px;
+}
+
+
+
+
+
+/* Responsive Section */
+
+
+/* Mobile 300px - 768px */
+
+
+/* Tablet 769px - 1023px */
+
+
+/* Desktop 1024px - 1215px */
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1215px) {
+    /* Service text group Section */
+    #service-text-group .column {
+        padding: 0 100px;
+    }
+}
+
+
+/* Widescreen 1216px - 1407px */
+@media only screen and (min-width: 1216px) and (max-width: 1407px) {
+    /* Service text group Section */
+    #service-text-group .column {
+        padding: 0 100px;
+    }
+
+    /* Gtooming Section */
+    #grooming {
+        padding: 300px 0;
+    }
+
+    /* Article Section */
+    #article .columns .column {
+        padding: 0 50px;
+    }
+
+}
+
+
+/* FullHD 1408px */
+@media only screen and (min-width: 1408px) {
+    /* Service text group Section */
+    #service-text-group .column {
+        padding: 0 100px;
+    }
+
+    /* Gtooming Section */
+    #grooming {
+        padding: 300px 0;
+    }
+
+    /* Article Section */
+    #article .columns .column {
+        padding: 0 50px;
+    }
+}
