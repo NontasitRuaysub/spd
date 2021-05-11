@@ -51,5 +51,48 @@ $(document).ready(function(){
         $(".search-box").removeClass("search-open");
     });
 
+    // Navbar on mobile device
+    $(".burger").on("click", function(){
+        $(".navbar-cs-menu").toggle("show-menu");
+    });
+
+    // Navbar product to product type 
+    $(".has-dropdown").on("click", function(e){
+        e.stopPropagation();
+        $(".first-dropdown").toggle("show-menu");
+    });
+
+    // Navbar product type to each product 
+    $(".dog-pd").on("click", function(e){
+        e.stopPropagation();
+        $(".dog-list").toggle("show-menu");
+    });
+
+    $(".cat-pd").on("click", function(e){
+        e.stopPropagation();
+        $(".cat-list").toggle("show-menu");
+    });
+
+    $(".other-pd").on("click", function(e){
+        e.stopPropagation();
+        $(".other-list").toggle("show-menu");
+    });
+
+    // Navbar food to food list
+    $(".dog-food").on("click", function(e){
+        e.stopPropagation();
+        $(".dog-food-list").toggle("show-menu");
+    });
+
+    $(".cat-food").on("click", function(e){
+        e.stopPropagation();
+        $(".cat-food-list").toggle("show-menu");
+    });
+
+    $(".other-food").on("click", function(e){
+        e.stopPropagation();
+        $(".other-food-list").toggle("show-menu");
+    });
+
 
 });
