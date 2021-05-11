@@ -53,7 +53,7 @@
                                                         <li><a href="#">อาหารแห้ง</a></li>
                                                     </ul>
                                                 </div>
-                                        </li>
+                                            </li>
                                             <li><a href="#">ขนม</a></li>
                                             <li><a href="#">ของใช้</a></li>
                                             <li><a href="#">ของเล่น</a></li>
@@ -70,7 +70,7 @@
                                                         <li><a href="#">อาหารแห้ง</a></li>
                                                     </ul>
                                                 </div>
-                                        </li>
+                                            </li>
                                             <li><a href="#">ขนม</a></li>
                                             <li><a href="#">ของใช้</a></li>
                                             <li><a href="#">ของเล่น</a></li>
@@ -87,7 +87,7 @@
                                                         <li><a href="#">อาหารแห้ง</a></li>
                                                     </ul>
                                                 </div>
-                                        </li>
+                                            </li>
                                             <li><a href="#">ขนม</a></li>
                                             <li><a href="#">ของใช้</a></li>
                                             <li><a href="#">ของเล่น</a></li>
@@ -102,8 +102,25 @@
                     <li><a href="#">สาขาของเรา</a></li>
                 </ul>
             </div>
+
             <!-- Nav Burger -->
             <i class="fas fa-bars fa-2x burger"></i>
+
+            <!-- Search Bar -->
+            <div class="search-btn-wrapper">
+                <a href="javascript:void(0)" class="search-btn"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="search-box">
+                <div class="search-container">
+                    <div class="search-form">
+                        <form action="#" method="post">
+                            <input type="text" placeholder="ค้นหาสินค้า">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <a href="javascript:void(0)" class="search-close"><i class="fas fa-times"></i></a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

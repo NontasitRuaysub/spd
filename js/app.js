@@ -37,3 +37,19 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// For search in Navbar
+$(document).ready(function(){
+
+    // Open Search bar
+    $(".search-btn").on("click", function(){
+        $(".search-box").addClass("search-open");
+    });
+
+    // Close Search bar
+    $(".search-close").on("click", function(){
+        $(".search-box").removeClass("search-open");
+    });
+
+
+});

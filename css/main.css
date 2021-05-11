@@ -70,6 +70,80 @@ span.view-all-button {
     display: inline-block;
 }
 
+/* Search section in navbar */
+.search-btn-wrapper .search-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.search-box {
+    position: fixed;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.search-box.search-open {
+    visibility: visible;
+    opacity: 1;
+    transition: .3s;
+}
+.search-container {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+.search-form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50%;
+}
+.search-form input {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 0 60px 0 30px;
+    background: transparent;
+    border: 3px solid rgb(0, 0, 0);
+}
+.search-form input::placeholder {
+    font-size: 20px;
+}
+.search-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 60px;
+    line-height: 50px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+}
+.search-close {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 50px;
+    right: 50px;
+    font-size: 20px;
+}
+.search-close:hover {
+    color: rgb(0, 0, 0);
+}
+
 /* Carousel Section */
 #header-carousel {
     position: relative;
