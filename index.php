@@ -142,21 +142,21 @@
                 <div class="columns has-text-centered">
                     <div class="column">
                         <div class="content">
-                            <p class="title is-size-2 has-text-weight-semibold service-head">บริการยอดเยี่ยม</p>
+                            <p class="title is-size-3-mobile is-size-2-tablet has-text-weight-semibold service-head">บริการยอดเยี่ยม</p>
                             <p class="detail">กว่า 90% ของลูกค้าพึงพอใจในบริการของเรา</p>
                         </div>
                     </div>
                     <div class="divider"></div>
                     <div class="column">
                         <div class="content">
-                            <p class="title is-size-2 has-text-weight-semibold service-head">สินค้าคุณภาพ</p>
+                            <p class="title is-size-3-mobile is-size-2-tablet has-text-weight-semibold service-head">สินค้าคุณภาพ</p>
                             <p class="detail">เพื่อให้มั่นใจ ว่าลูกค้าจะ ได้รับสินค้าที่ดีที่สุด</p>
                         </div>
                     </div>
                     <div class="divider"></div>
                     <div class="column">
                         <div class="content">
-                            <p class="title is-size-2 has-text-weight-semibold service-head">จัดส่งถึงบ้าน</p>
+                            <p class="title is-size-3-mobile is-size-2-tablet has-text-weight-semibold service-head">จัดส่งถึงบ้าน</p>
                             <p class="detail">การคำนวณราคา ค่าจัดส่ง ตามน้ำหนักจริง</p>
                         </div>
                     </div>
@@ -168,13 +168,13 @@
         <!-- Product type section -->
         <section id="product-type" class="section">
             <div class="container">
-                <h1 class="title is-size-1">หมวดหมู่สินค้า</h1>
+                <h1 class="title is-size-2-mobile is-size-1-tablet">หมวดหมู่สินค้า</h1>
                 <div class="columns">
                     <div class="column">
                         <div class="content">
                             <a href="#">
                                 <img src="imgs/product-type-imgs/dog.png" alt="สินค้าน้องหมา" title="สินค้าน้องหมา">
-                                <h2 class="is-size-2">น้องหมา</h2>
+                                <h2 class="is-size-3-mobile is-size-2-tablet">น้องหมา</h2>
                             </a>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                         <div class="content">
                             <a href="#">
                                 <img src="imgs/product-type-imgs/cat.png" alt="สินค้าน้องแมว" title="สินค้าน้องแมว">
-                                <h2 class="is-size-2">น้องแมว</h2>
+                                <h2 class="is-size-3-mobile is-size-2-tablet">น้องแมว</h2>
                             </a>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                         <div class="content">
                             <a href="#">
                                 <img src="imgs/product-type-imgs/other.png" alt="สินค้าสัตว์อื่นๆ" title="สินค้าสัตว์อื่นๆ">
-                                <h2 class="is-size-2">สัตว์อื่นๆ</h2>
+                                <h2 class="is-size-3-mobile is-size-2-tablet">สัตว์อื่นๆ</h2>
                             </a>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
         <!-- Promotion Section -->
         <section id="promotion" class="section">
             <div class="container">
-                <h1 class="title is-size-1">โปรโมชั่น</h1>
+                <h1 class="title is-size-2-mobile is-size-1-tablet">โปรโมชั่น</h1>
                 <div class="columns">
                     <div class="column is-4">
                         <div class="content">
@@ -233,7 +233,7 @@
                 <div class="columns">
                     <div class="column advertise-group">
                         <div class="content">
-                            <p class="is-size-1 advertise-header mb-0">สินค้าท้าลมร้อน!</p>
+                            <p class="is-size-2-mobile is-size-1-tablet advertise-header mb-0">สินค้าท้าลมร้อน!</p>
                             <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi.</p>
                             <a class="button line-add-button color-button" href="#">แอด Line เลยวันนี้</a>
                         </div>
@@ -251,7 +251,7 @@
         <!-- Best Selling Products -->
         <section id="best-sell" class="section">
             <div class="container">
-                <h1 class="title is-size-1">สินค้าขายดี</h1>
+                <h1 class="title is-size-2-mobile is-size-1-tablet">สินค้าขายดี</h1>
                 <div class="columns is-multiline is-mobile">
                     <div class="column is-6-mobile is-3-tablet">
                         <div class="content">
@@ -307,7 +307,7 @@
                 <div class="columns is-vcentered">
                     <div class="column">
                         <div class="content">
-                            <p class="is-size-1 has-text-weight-semibold has-text-centered header">ติดต่อเราเลยวันนี้!</p>
+                            <p class="is-size-2-mobile is-size-1-tablet has-text-weight-semibold has-text-centered header">ติดต่อเราเลยวันนี้!</p>
                         </div>
                     </div>
                     <div class="column">
@@ -333,8 +333,8 @@
                     </div>
                     <div class="column ads-detail">
                         <div class="content">
-                            <p class="is-size-1 has-text-weight-semibold">แจกฟรี! เสื้อน้องหมาสุดชิค</p>
-                            <p class="is-size-3 has-text-weight-semibold">มูลค่า 199 บาท</p>
+                            <p class="is-size-2-mobile is-size-1-tablet has-text-weight-semibold mb-0">แจกฟรี! เสื้อน้องหมาสุดชิค</p>
+                            <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold mb-4">มูลค่า 199 บาท</p>
                             <a href="#" class="button color-button">คลิกเพื่ออ่านรายละเอียด</a>
                             <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi.</p>
                         </div>
@@ -347,8 +347,10 @@
         <!-- Grooming Service Section -->
         <section id="grooming" class="section">
             <div class="container">
-                <h1>Grooming Service</h1>
-                <p>Tell your brand’s strou through images</p>
+                <div class="content">
+                    <h1>Grooming Service</h1>
+                    <p>Tell your brand’s strou through images</p>
+                </div>
             </div>
         </section>
         <!-- End Grooming Service Section -->
@@ -399,25 +401,25 @@
         <!-- Articles Section -->
         <section id="article" class="section">
             <div class="container">
-                <h1 class="title is-size-1">บทความน่าสนใจ</h1>
+                <h1 class="title is-size-2-mobile is-size-1-tablet">บทความน่าสนใจ</h1>
                 <div class="columns">
                     <div class="column">
                         <div class="content">
-                            <h1 class="title is-size-1">Your post’s title here</h1>
+                            <h1 class="title is-size-2-mobile is-size-1-tablet">Your post’s title here</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi. Nam feugiat odio in commodo suscipit.</p>
                             <a class="button color-button article-button" href="#">อ่านเพิ่มเติม</a>
                         </div>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <h1 class="title is-size-1">Your post’s title here</h1>
+                            <h1 class="title is-size-2-mobile is-size-1-tablet">Your post’s title here</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi. Nam feugiat odio in commodo suscipit.</p>
                             <a class="button color-button article-button" href="#">อ่านเพิ่มเติม</a>
                         </div>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <h1 class="title is-size-1">Your post’s title here</h1>
+                            <h1 class="title is-size-2-mobile is-size-1-tablet">Your post’s title here</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla mi. Nam feugiat odio in commodo suscipit.</p>
                             <a class="button color-button article-button" href="#">อ่านเพิ่มเติม</a>
                         </div>
@@ -458,7 +460,7 @@
         <!-- Review Section -->
         <section id="review" class="section">
             <div class="container">
-                <h1 class="title is-size-1">รีวิวจากลูกค้า</h1>
+                <h1 class="title is-size-2-mobile is-size-1-tablet">รีวิวจากลูกค้า</h1>
                 <div class="review-carousel owl-carousel owl-theme carousel-group">
                     <div class="item carousel-item">
                         <p><i class="fas fa-quote-left"></i></p>
@@ -482,13 +484,13 @@
         </section>
         <!-- End Review Section -->
 
-        <!-- Line Contact Section -->
+        <!-- Line Contact Second Section -->
         <section id="line-contact-second" class="section">
             <div class="container">
                 <div class="columns is-vcentered">
                     <div class="column">
                         <div class="content">
-                            <p class="is-size-1 has-text-weight-semibold  header">สั่งซื้อสินค้า สอบถาม หรือ ติดต่อเราทางไลน์</p>
+                            <p class="is-size-2-mobile is-size-1-tablet has-text-weight-semibold  header">สั่งซื้อสินค้า สอบถาม หรือ ติดต่อเราทางไลน์</p>
                         </div>
                     </div>
                     <div class="column">
@@ -520,7 +522,7 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column social-contact">
                         <div class="content">
                             <p>ติดตามเราได้ที่</p>
                             <div class="social">
