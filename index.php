@@ -2,127 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starpets By Dee Dog</title>
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="imgs/favicon/favicon.png">
-    <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <!-- CSS File -->
-    <link rel="stylesheet" href="css/main.css">
+    <?php include('elements/head-link.php') ?>
 </head>
 
 <body>
     <header>
         <!-- Shop-Announcement -->
-        <div id="shop-announce" class="F26938">
-            <p>ประกาศจากทางร้าน</p>
-        </div>
+        <?php include('elements/shop-announce.php') ?>
 
         <!-- Navbar -->
-        <nav id="header-navbar" class="FFF8EE">
-            <!-- navbar logo image -->
-            <div class="navbar-cs-logo">
-                <a href="index.php">
-                    <img src="imgs/logo-img/logo.png" alt="STAR PETS by DEE DOG Logo" title="STAR PETS by DEE DOG">
-                </a>
-            </div>
-            <div class="navbar-cs-menu">
-                <ul>
-                    <li><a href="#">หน้าแรก</a></li>
-                    <li class="has-dropdown"><a href="#">สินค้าของเรา<span class="pd-arrow">&#62;</span></a>
-                        <div class="first-dropdown FFF8EE">
-                            <ul>
-                                <li class="product dog-pd"><a href="#">สินค้าน้องหมา<span class="arrow">&#62;</span></a>
-                                    <div class="second-dropdown dog-list FFF8EE">
-                                        <ul>
-                                            <li class="food-product dog-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>
-                                                <div class="third-dropdown FFF8EE dog-food-list">
-                                                    <ul>
-                                                        <li><a href="#">อาหารเปียก</a></li>
-                                                        <li><a href="#">อาหารแห้ง</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li><a href="#">ขนม</a></li>
-                                            <li><a href="#">ของใช้</a></li>
-                                            <li><a href="#">ของเล่น</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="product cat-pd"><a href="#">สินค้าน้องแมว<span class="arrow">&#62;</span></a>
-                                    <div class="second-dropdown cat-list FFF8EE">
-                                        <ul>
-                                            <li class="food-product cat-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>
-                                                <div class="third-dropdown FFF8EE cat-food-list">
-                                                    <ul>
-                                                        <li><a href="#">อาหารเปียก</a></li>
-                                                        <li><a href="#">อาหารแห้ง</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li><a href="#">ขนม</a></li>
-                                            <li><a href="#">ของใช้</a></li>
-                                            <li><a href="#">ของเล่น</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="product other-pd"><a href="#">สินค้าสัตว์อื่นๆ<span class="arrow">&#62;</span></a>
-                                    <div class="second-dropdown other-list FFF8EE">
-                                        <ul>
-                                            <li class="food-product other-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>
-                                                <div class="third-dropdown FFF8EE other-food-list">
-                                                    <ul>
-                                                        <li><a href="#">อาหารเปียก</a></li>
-                                                        <li><a href="#">อาหารแห้ง</a></li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li><a href="#">ขนม</a></li>
-                                            <li><a href="#">ของใช้</a></li>
-                                            <li><a href="#">ของเล่น</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">คำถามที่พบบ่อย</a></li>
-                    <li><a href="#">บทความ</a></li>
-                    <li><a href="#">สาขาของเรา</a></li>
-                </ul>
-            </div>
-            <div class="search-burger-container">
-                <!-- Search Bar -->
-                <div class="search-btn-wrapper">
-                    <a href="javascript:void(0)" class="search-btn"><i class="fas fa-search"></i></a>
-                </div>
-                <div class="search-box">
-                    <div class="search-container">
-                        <div class="search-form">
-                            <form action="#" method="post">
-                                <input type="text" placeholder="ค้นหาสินค้า">
-                                <button type="submit"><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                        <a href="javascript:void(0)" class="search-close"><i class="fas fa-times"></i></a>
-                    </div>
-                </div>
-
-                <!-- Nav Burger -->
-                <i class="fas fa-bars fa-2x burger"></i>
-            </div>
-        </nav>
+        <?php include('elements/navbar.php') ?>
     </header>
     <main>
         <!-- Carousel Section -->
@@ -485,74 +374,10 @@
         <!-- End Review Section -->
 
         <!-- Line Contact Second Section -->
-        <section id="line-contact-second" class="section">
-            <div class="container">
-                <div class="columns is-vcentered">
-                    <div class="column">
-                        <div class="content">
-                            <p class="is-size-2-mobile is-size-1-tablet has-text-weight-semibold  header">สั่งซื้อสินค้า สอบถาม หรือ ติดต่อเราทางไลน์</p>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="content">
-                            <a href="https://lin.ee/96so2yC">
-                                <img src="imgs/line-contact/line-2.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include('elements/line-contact-second.php') ?>
         <!-- End Line Contact Section -->
     </main>
-    <footer class="F26938">
-        <section class="section">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="content">
-                            <nav id="footer-nav">
-                                <a href="#">หน้าแรก</a>
-                                <a href="#">เกี่ยวกับเรา</a>
-                                <a href="#">สินค้าของเรา</a>
-                                <a href="#">โปรโมชั่น</a>
-                                <a href="#">บทความน่าสนใจ</a>
-                                <a href="#">คำถามที่พบบ่อย</a>
-                                <a href="#">สตาเพ็ทไลฟ์</a>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="column social-contact">
-                        <div class="content">
-                            <p>ติดตามเราได้ที่</p>
-                            <div class="social">
-                                <img src="imgs/social-imgs/fb.png" alt="@starpetsbydeedog" title="@starpetsbydeedog">
-                                <p>@starpetsbydeedog</p>
-                            </div>
-                            <div class="social">
-                                <img src="imgs/social-imgs/line.png" alt="@starpetsbydeedog" title="@starpetsbydeedog">
-                                <p>@starpetsbydeedog</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="content">
-                            <p>บริษัท สตาร์ออลเพ็ทส์ จำกัด สำนักงานใหญ่ 49/62 หมู่ที่ 2 ถนน แจ้งวัฒนะ ต.บางตลาด อ. ปากเกร็ด นนทบุรี 11120</p>
-                            <p><i class="fas fa-phone-alt"></i>02-xxx-xxxx</p>
-                            <p>สาขา เซ็นทรัลพลาซ่า แจ้งวัฒนะ</p>
-                            <p><i class="fas fa-phone-alt"></i>02-835-3711</p>
-                            <p>สาขา เซ็นทรัลพลาซ่า เวสต์เกต</p>
-                            <p><i class="fas fa-phone-alt"></i>02-102-7729</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <div class="container">
-            <p class="copyright"><span>&copy;</span>2021 Starpets by Dee Dog</p>
-        </div>
-    </footer>
+    <?php include('elements/footer.php') ?>
 
 
 

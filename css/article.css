@@ -1,0 +1,19 @@
+/* Article landing + article page */
+#article-landing, #article-pg {
+    padding: 12px;
+    margin: 50px 0;
+}
+#article-landing h1, #article-pg h1, #article-relate h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+#article-landing .button, #article-relate .button {
+    background-color: #F8DAB3;
+    color: #F26938;
+}
+#article-pg img {
+    width: 100%;
+}
+#article-relate {
+    margin-top: 0;
+}
