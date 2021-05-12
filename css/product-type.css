@@ -1,0 +1,23 @@
+#icon {
+    padding: 12px;
+    margin: 50px 0;
+}
+#icon .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon .content h1, .dog-pd .content h1, .cat-pd .content h1, .other-pd .content h1 {
+    margin-left: 10px;
+}
+.dog-pd, .cat-pd, .other-pd {
+    padding: 12px;
+    margin: 50px 0;
+}
+.dog-pd .content, .cat-pd .content, .other-pd  .content {
+    display: flex;
+    align-items: center;
+}
+.dog-pd .columns .button, .cat-pd .columns .button, .other-pd .columns .button {
+    width: 100%;
+}

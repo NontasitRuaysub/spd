@@ -2,97 +2,233 @@
 <html lang="en">
 
 <head>
-    <?php include('../elements/head-link.php') ?>
-    <!-- product image css file -->
-    <link rel="stylesheet" href="../../css/promotion-index.css" >
+    <?php include('elements/head-link.php') ?>
 </head>
 
 <body>
     <header>
         <!-- Shop Annoucement -->
-        <?php include('../elements/shop-announce.php') ?>
+        <?php include('elements/shop-announce.php') ?>
         <!-- Header Navbar -->
-        <?php include('../elements/navbar.php') ?>
+        <?php include('elements/navbar.php') ?>
+        <!-- product-type css file -->
+        <link rel="stylesheet" href="../../../css/product-type.css">
     </header>
 
     <main>
-        <!-- Promotion -->
-        <section id="promotion-landing" class="section">
+        <!-- dog -->
+        <div id="icon">
             <div class="container">
                 <div class="content">
-                    <h1 class="title is-size-2-mobile is-size-1-tablet">โปรโมชั่นสุดพิเศษ</h1>
-                </div>
-                <div class="columns is-multiline is-mobile">
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/jerhigh-duo.jpg" alt="Jerhigh duo stick" title="Jerhigh duo stick">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/jerhigh-pounch.jpg" alt="Jerhigh pounch" title="Jerhigh pounch">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/monchou-dog-pack.jpg" alt="Monchou dog 70g" title="Monchou dog 70g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/monge.jpg" alt="Monge fresh pate" title="Monge fresh pate">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/monchou-dog-can.jpg" alt="Monchou dog 80g" title="Monchou dog 80g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/creamy-15x4.jpg" alt="Creamy treats 15x4g" title="Creamy treats 15x4g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/creamy.jpg" alt="Creamy treats 15x20g" title="Creamy treats 15x20g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/jinny.jpg" alt="Jinny Stick" title="Jinny Stick">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/monchou-cat-pack.jpg" alt="Monchou cat 70g" title="Monchou cat 70g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    <div class="column is-6-mobile is-4-tablet">
-                        <div class="content">
-                            <img src="imgs/monchou-cat-can.jpg" alt="Monchou cat 80g" title="Monchou cat 80g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
-                        </div>
-                    </div>
-                    
+                    <img src="imgs/dog-logo.png" alt="สินค้าน้องหมา" title="สินค้าน้องหมา">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">สินค้าน้องหมา</h1>
                 </div>
             </div>
+        </div>
+
+        <!-- Pellet -->
+        <section class="section dog-pd">
+            <div class="container">
+                <div class="content">
+                    <img src="imgs/pellet/pellet.png" alt="อาหารเม็ด">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">อาหารเม็ด</h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/pellet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/pellet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/pellet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/pellet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+                <span class="view-all-button">
+                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                </span>
+            </div>
         </section>
+
+        <!-- wet -->
+        <section class="section dog-pd">
+            <div class="container">
+                <div class="content">
+                    <img src="imgs/wet/wet.png" alt="อาหารเปียก">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">อาหารเปียก</h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/wet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/wet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/wet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/wet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+                <span class="view-all-button">
+                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                </span>
+            </div>
+        </section>
+
+        <!-- sweet -->
+        <section class="section dog-pd">
+            <div class="container">
+                <div class="content">
+                    <img src="imgs/sweet/sweet.png" alt="ขนม">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">ขนม</h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/sweet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/sweet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/sweet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/sweet/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+                <span class="view-all-button">
+                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                </span>
+            </div>
+        </section>
+
+        <!-- tools -->
+        <section class="section dog-pd">
+            <div class="container">
+                <div class="content">
+                    <img src="imgs/tools/tools.png" alt="ของใช้">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">ของใช้</h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/tools/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/tools/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/tools/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/tools/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+                <span class="view-all-button">
+                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                </span>
+            </div>
+        </section>
+
+        <!-- toys -->
+        <section class="section dog-pd">
+            <div class="container">
+                <div class="content">
+                    <img src="imgs/toys/toys.png" alt="ของเล่น">
+                    <h1 class="is-size-2-mobile is-size-1-tablet">ของเล่น</h1>
+                </div>
+                <div class="columns is-multiline is-mobile">
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/toys/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/toys/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/toys/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                    <div class="column is-6-mobile is-3-tablet">
+                        <img src="imgs/toys/demo.jpg" alt="">
+                        <p class="is-size-4-mobile is-size-3-tablet has-text-weight-semibold">ชื่อสินค้า</p>
+                        <p class="is-size-4-mobile is-size-3-tablet">แท็กไลน์.............</p>
+                        <a class="button color-button" href="#">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+                <span class="view-all-button">
+                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                </span>
+            </div>
+        </section>
+
+
+
         <!-- Line Contact Second Section -->
-        <?php include('../elements/line-contact-second.php') ?>
+        <?php include('elements/line-contact-second.php') ?>
 
     </main>
     <!-- Footer Section -->
-    <?php include('../elements/footer.php') ?>
+    <?php include('elements/footer.php') ?>
 
 
     <!-- Font Awesome -->

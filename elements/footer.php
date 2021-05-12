@@ -5,13 +5,13 @@
                 <div class="column">
                     <div class="content">
                         <nav id="footer-nav">
-                            <a href="#">หน้าแรก</a>
+                            <a href="index.php">หน้าแรก</a>
                             <a href="#">เกี่ยวกับเรา</a>
                             <a href="#">สินค้าของเรา</a>
-                            <a href="#">โปรโมชั่น</a>
-                            <a href="#">บทความน่าสนใจ</a>
-                            <a href="#">คำถามที่พบบ่อย</a>
-                            <a href="#">สตาเพ็ทไลฟ์</a>
+                            <a href="data/promotion/promotion-index.php">โปรโมชั่น</a>
+                            <a href="data/articles/article-index.php">บทความน่าสนใจ</a>
+                            <a href="q-a.php">คำถามที่พบบ่อย</a>
+                            <a href="starpetlife.php">สตาเพ็ทไลฟ์</a>
                         </nav>
                     </div>
                 </div>
