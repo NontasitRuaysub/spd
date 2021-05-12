@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <span class="view-all-button">
-                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                    <a class="button color-button" href="pellet/pellet-landing.php">ดูทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <span class="view-all-button">
-                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                    <a class="button color-button" href="wet/wet-landing.php">ดูทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <span class="view-all-button">
-                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                    <a class="button color-button" href="sweet/sweet-landing.php">ดูทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <span class="view-all-button">
-                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                    <a class="button color-button" href="tools/tools-landing.php">ดูทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -216,7 +216,7 @@
                     </div>
                 </div>
                 <span class="view-all-button">
-                    <a class="button color-button" href="#">ดูทั้งหมด</a>
+                    <a class="button color-button" href="toys/toy-landing.php">ดูทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -238,7 +238,7 @@
     <!-- Owl Carousel CDN JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <!-- JS File -->
-    <script type="text/javascript" src="../../js/app.js"></script>
+    <script type="text/javascript" src="../../../js/app.js"></script>
 </body>
 
 </html>

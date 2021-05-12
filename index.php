@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <span class="view-all-link">
-                    <a href="#">ดูโปรโมชั่นทั้งหมด</a>
+                    <a href="data/promotion/promotion-index.php">ดูโปรโมชั่นทั้งหมด</a>
                 </span>
             </div>
         </section>
@@ -340,7 +340,7 @@
                     </div>
                 </div>
                 <span class="view-all-link">
-                    <a href="#">ดูโปรโมชั่นทั้งหมด</a>
+                    <a href="data/promotion/promotion-index.php">ดูโปรโมชั่นทั้งหมด</a>
                 </span>
             </div>
         </section>
