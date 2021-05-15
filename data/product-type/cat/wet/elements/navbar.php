@@ -11,7 +11,7 @@
             <li class="has-dropdown"><a href="#">สินค้าของเรา<span class="pd-arrow">&#62;</span></a>
                 <div class="first-dropdown FFF8EE">
                     <ul>
-                        <li class="product dog-pd"><a href="../../../../data/product-type/dog/dog-index.php">สินค้าน้องหมา<span class="arrow">&#62;</span></a>
+                        <li class="product dog-pd"><a href="#">สินค้าน้องหมา<span class="arrow">&#62;</span></a>
                             <div class="second-dropdown dog-list FFF8EE">
                                 <ul>
                                     <li class="food-product dog-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>
@@ -28,7 +28,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="product cat-pd"><a href="../../../../data/product-type/cat/cat-index.php">สินค้าน้องแมว<span class="arrow">&#62;</span></a>
+                        <li class="product cat-pd"><a href="#">สินค้าน้องแมว<span class="arrow">&#62;</span></a>
                             <div class="second-dropdown cat-list FFF8EE">
                                 <ul>
                                     <li class="food-product cat-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>
@@ -45,7 +45,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="product other-pd"><a href="../../../../data/product-type/other/other-index.php">สินค้าสัตว์อื่นๆ<span class="arrow">&#62;</span></a>
+                        <li class="product other-pd"><a href="#">สินค้าสัตว์อื่นๆ<span class="arrow">&#62;</span></a>
                             <div class="second-dropdown other-list FFF8EE">
                                 <ul>
                                     <li class="food-product other-food"><a href="#">อาหาร<span class="arrow">&#62;</span></a>

@@ -13,8 +13,7 @@
         <?php include('../elements/shop-announce.php') ?>
         <!-- Header Navbar -->
         <?php include('../elements/navbar.php') ?>
-        <!-- Article css file -->
-        <link rel="stylesheet" href="../../css/article.css">
+        
     </header>
 
     <main>
@@ -30,7 +29,7 @@
                             <img src="imgs/demo.jpg" alt="โรคลมแดด [heat stroke]" title="โรคลมแดด [heat stroke]">
                             <h3 class="is-size-4-mobile is-size-3-tablet">โรคลมแดด [heat stroke]</h3>
                             <p class="is-size-6-mobile is-size-5-tablet">อันตรายในช่วงหน้าร้อนที่ไม ่ควรมองข้าม</p>
-                            <a class="button" href="#">อ่านต่อ</a>
+                            <a class="button" href="article-1.php">อ่านต่อ</a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">

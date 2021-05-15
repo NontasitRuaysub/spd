@@ -27,7 +27,7 @@ span.view-all-link {
     display: inline-block;
     width: 100%;
     text-align: right;
-    margin: 25px 0;
+    margin-top: 25px;
 }
 span.view-all-button {
     display: inline-block;
@@ -62,13 +62,16 @@ span.view-all-button {
     display: flex;
 }
 
-.navbar-cs-logo img {
+.navbar-cs-logo a img {
     width: 180px;
 }
 .pd-arrow, .arrow {
     display: inline-block;
 }
-
+.navbar-burger span {
+    width: 20px;
+    border: 1px solid black;
+}
 /* Search section in navbar */
 .search-btn-wrapper .search-btn {
     display: inline-block;
@@ -131,6 +134,7 @@ span.view-all-button {
     font-size: 20px;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 .search-close {
     position: absolute;
@@ -143,6 +147,7 @@ span.view-all-button {
     color: rgb(0, 0, 0);
 }
 
+
 /* Carousel Section */
 #header-carousel {
     position: relative;
@@ -150,7 +155,7 @@ span.view-all-button {
 #header-carousel .owl-dots {
     position: absolute;
     bottom: 10px;
-    left: 50%;
+    left: 45%;
 }
 
 /* Service text group Section */
@@ -229,7 +234,6 @@ span.view-all-button {
     font-size: 25px;
 }
 #best-sell .bs-button {
-    margin-bottom: 25px;
     width: 100%
 
 }
@@ -298,6 +302,7 @@ span.view-all-button {
 }
 #article p {
     font-size: 25px;
+    margin-bottom: 0;
 }
 #article .article-button {
     width: 100%;
@@ -374,8 +379,13 @@ footer .copyright {
 /* Mobile 300px - 768px */
 @media only screen and (min-width: 300px) and (max-width: 768px) {
     /* Navbar Section */
-    .navbar-cs-logo img {
-        width: 120px;
+    .navbar-cs-logo a img {
+        width: 150px;
+    }
+    .search-btn-wrapper {
+        position: absolute;
+        top: 40px;
+        right: 80px;
     }
     /* Promotion Section */
     span.view-all-link {
@@ -418,7 +428,7 @@ footer .copyright {
         text-align: center;
     }
     #article .article-button {
-        width: 25%;
+        width: 50%;
         margin: 25px 0;
     }
 
@@ -445,12 +455,21 @@ footer .copyright {
     .social {
         justify-content: center;
     }
+    footer .copyright {
+        text-align: center;
+    }
 
 }
 
 
 /* Tablet 769px - 1023px */
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    /* Navbar */
+    .search-btn-wrapper {
+        position: absolute;
+        top: 50px;
+        right: 80px;
+    }
     
     /* Service text gruop Section */
     .divider {
@@ -616,13 +635,16 @@ footer .copyright {
 @media only screen and (max-width: 1023px) {
     #header-navbar {
         flex-direction: column;
-        align-items: flex-start;
+        justify-content: space-between;
         position: relative;
         padding: 0;
     }
     .navbar-cs-logo {
         display: flex;
-        padding: 20px 0 20px 10px;
+        padding: 10px 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
     }
     #header-navbar .navbar-cs-menu > ul {
         flex-direction: column;
@@ -636,6 +658,11 @@ footer .copyright {
         position: absolute;
         transform: rotate(90deg);
         right: 20px;
+    }
+    .pd-arrow.active, .dog-pd-arrow.active, .cat-pd-arrow.active, .other-pd-arrow.active, .dog-food-arrow.active, .cat-food-arrow.active, .other-food-arrow.active {
+        position: absolute;
+        transform: rotate(270deg);
+        right: 25px;
     }
     .navbar-cs-menu {
         width: 100%;
@@ -656,21 +683,15 @@ footer .copyright {
         border:none;
         padding-left: 20px;
     }
-    .search-burger-container {
-        display: flex;
-        position: absolute;
-        top: 40px;
-        right: 30px;
-        align-items: center;
-    }
-    .search-burger-container .burger {
-        cursor: pointer;
-    }
 }
 
 
 /* Responsive for navbar above 1024 px */
 @media only screen and (min-width: 1024px) {
+    #header-navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
     #header-navbar .first-dropdown {
         display: none;
     }
@@ -678,7 +699,7 @@ footer .copyright {
         display: none;
     }
     .navbar-cs-menu li {
-        margin: 0 10px;
+        margin: 0 5px;
         position: relative;
     }
     .navbar-cs-menu > ul li {

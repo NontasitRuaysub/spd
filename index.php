@@ -61,7 +61,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="content">
-                            <a href="#">
+                            <a href="data/product-type/dog/dog-index.php">
                                 <img src="imgs/product-type-imgs/dog.png" alt="สินค้าน้องหมา" title="สินค้าน้องหมา">
                                 <h2 class="is-size-3-mobile is-size-2-tablet">น้องหมา</h2>
                             </a>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="column">
                         <div class="content">
-                            <a href="#">
+                            <a href="data/product-type/cat/cat-index.php">
                                 <img src="imgs/product-type-imgs/cat.png" alt="สินค้าน้องแมว" title="สินค้าน้องแมว">
                                 <h2 class="is-size-3-mobile is-size-2-tablet">น้องแมว</h2>
                             </a>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="column">
                         <div class="content">
-                            <a href="#">
+                            <a href="data/product-type/other/other-index.php">
                                 <img src="imgs/product-type-imgs/other.png" alt="สินค้าสัตว์อื่นๆ" title="สินค้าสัตว์อื่นๆ">
                                 <h2 class="is-size-3-mobile is-size-2-tablet">สัตว์อื่นๆ</h2>
                             </a>

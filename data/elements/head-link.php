@@ -14,5 +14,9 @@
 <link rel="icon" type="image/png" href="../../imgs/favicon/favicon.png">
 <!-- Bulma -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+<!-- Article css file -->
+<link rel="stylesheet" href="../../css/article.css">
+<!-- product image css file -->
+<link rel="stylesheet" href="../../css/promotion-index.css">
 <!-- CSS File -->
 <link rel="stylesheet" href="../../css/main.css">

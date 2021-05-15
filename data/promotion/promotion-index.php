@@ -3,8 +3,7 @@
 
 <head>
     <?php include('../elements/head-link.php') ?>
-    <!-- product image css file -->
-    <link rel="stylesheet" href="../../css/promotion-index.css" >
+    
 </head>
 
 <body>
@@ -26,64 +25,84 @@
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/jerhigh-duo.jpg" alt="Jerhigh duo stick" title="Jerhigh duo stick">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/jerhigh-pounch.jpg" alt="Jerhigh pounch" title="Jerhigh pounch">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/monchou-dog-pack.jpg" alt="Monchou dog 70g" title="Monchou dog 70g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/monge.jpg" alt="Monge fresh pate" title="Monge fresh pate">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/monchou-dog-can.jpg" alt="Monchou dog 80g" title="Monchou dog 80g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/creamy-15x4.jpg" alt="Creamy treats 15x4g" title="Creamy treats 15x4g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/creamy.jpg" alt="Creamy treats 15x20g" title="Creamy treats 15x20g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/jinny.jpg" alt="Jinny Stick" title="Jinny Stick">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/monchou-cat-pack.jpg" alt="Monchou cat 70g" title="Monchou cat 70g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
                     <div class="column is-6-mobile is-4-tablet">
                         <div class="content">
                             <img src="imgs/monchou-cat-can.jpg" alt="Monchou cat 80g" title="Monchou cat 80g">
-                            <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            <a href="https://page.line.me/fbh9017q?openQrModal=true">
+                                <img src="imgs/line.png" alt="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog" title="สอบถาม - สั่งซื้อผ่านไลน์ @starpetbydeedog">
+                            </a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
